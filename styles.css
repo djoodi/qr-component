@@ -1,0 +1,32 @@
+:root {
+  --main-border-radius: 8px;
+  --primary-border-color: rgb(118, 118, 118);
+  --secondary-border-color: rgb(165, 165, 165);
+}
+
+.container {
+  
+}
+
+.card {
+  border: 1px black solid;
+  border-radius: var(--main-border-radius);
+  border-color: var(--primary-border-color);
+}
+
+.card-img {
+  width: 300px;
+  height: 300px;
+  border: 1px black solid;
+  border-radius: var(--main-border-radius);
+  border-color: var(--secondary-border-color);
+}
+
+.attribution {
+  display: none;
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
